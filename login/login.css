@@ -1,0 +1,55 @@
+body {
+  background-image: url("../assets/mamamboga.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ /* For small devices */
+@media only screen and (max-width: 600px) {
+  body {
+    background-repeat: repeat;
+  }
+}
+
+.container {
+  color: #fff;
+  max-width: 452px;
+  margin: 0 auto;
+  padding: 55px;
+  border: 1px solid #ccc;
+  border-radius: 76px;
+  background-color: black;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group button {
+    padding: 10px 20px;
+    background-color: #1e0482;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form-group button a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+    }
+  
+  .form-group button:hover {
+    background-color: #45a049;
+  }
+  

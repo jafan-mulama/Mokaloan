@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../assets/mamamboga.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    background-color: #48bbe4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  #app {
+    padding: 20px;
+  }
+  
+.card {
+  border: 1px solid #db5555;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(32, 161, 181);
+  color: #fff;
+  animation-name: animation1;
+  animation-duration: 7s;
+}
+
+@keyframes animation1 {
+  from {background-color: rgb(222, 118, 15);} 
+  to {background-color: #c01b1b;}
+}
+
+  
+  .card h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    color: #f5f5f5;
+  }
+ /*   button */
+  .card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1e0482;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-button:hover {
+    transform: scale(1.05); /* Adjust the hover animation */
+  }
+  
+  .apply-button {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
